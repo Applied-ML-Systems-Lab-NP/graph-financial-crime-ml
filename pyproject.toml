@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "financial-graph-ml"
+version = "0.1.0"
+description = "Graph-based financial crime detection and ML drift monitoring"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy==1.26.4",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "networkx",
+    "pyyaml",
+    "torch==2.0.1",
+    "torch-geometric==2.3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "jupyterlab",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

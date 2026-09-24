@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+networkx
+pyyaml
+
+[dev]
+pytest
+ruff
+jupyterlab

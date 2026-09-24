@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Datasets and generated artifacts
+data/raw/*
+data/processed/*
+models/
+reports/figures/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
