@@ -3,7 +3,8 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
-
+# Python packaging metadata
+*.egg-info/
 # Datasets and generated artifacts
 data/raw/*
 data/processed/*
